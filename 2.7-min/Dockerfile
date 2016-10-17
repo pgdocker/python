@@ -3,9 +3,6 @@ MAINTAINER Philip Graf <philip.graf@novapo.net>
 
 RUN apk add --no-cache \
   python \
-  python-dev \
-  git \
-  musl-dev \
-  gcc
+  python-dev
 
 CMD ["python"]
